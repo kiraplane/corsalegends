@@ -1,8 +1,14 @@
 import { officialGameFacts } from './sources';
 
-export const CODE_CHECKED_AT = '2026-07-14';
+export const CODE_CHECKED_AT = '2026-07-17';
 
 export const activeCodes = [
+  {
+    code: '90K',
+    reward: 'Cash reward; exact amount is confirmed by the in-game popup',
+    status: 'Official-description active',
+    note: 'New milestone code published in the official Roblox experience description during the July 17 check.',
+  },
   {
     code: 'UNDERGLOW',
     reward: '25,000 Cash',
@@ -23,16 +29,15 @@ export const activeCodes = [
   },
 ];
 
-export const watchCodes = [
-  {
-    code: '75K',
-    reward: 'Cash reward; amount not confirmed by the first-party description',
-    status: 'Official-description watch',
-    note: 'The Roblox description still advertises 75K, but the two latest July trackers agree on a different active three. Try it only as a rotation check.',
-  },
-];
+export const watchCodes: Array<{
+  code: string;
+  reward: string;
+  status: string;
+  note: string;
+}> = [];
 
 export const knownExpiredCodes = [
+  '75K',
   'GOLF',
   'DIESELTRUCK',
   'HOUSING',
@@ -55,7 +60,7 @@ export const codeCheckSummary = {
   checkedAt: CODE_CHECKED_AT,
   activeCount: activeCodes.length,
   status:
-    'Three Corsa Legends codes are cross-checked as active for July 2026. The official Roblox description also mentions 75K, but current trackers disagree on its rotation status.',
+    'Four Corsa Legends codes are tracked as active for July 2026. 90K is the newest official-description milestone code; UNDERGLOW, 4THOFJULY, and 60K remain cross-checked by current code trackers.',
   sourcesChecked: [
     {
       label: 'Official Roblox experience',
