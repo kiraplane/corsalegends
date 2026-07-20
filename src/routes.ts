@@ -15,6 +15,7 @@ export enum Routes {
   Races = '/races',
   Map = '/map',
   Updates = '/updates',
+  Discord = '/discord',
   OfficialLinks = '/official-links',
   BeginnerGuide = '/guides/beginner-guide',
   MoneyGuide = '/guides/make-money-fast',

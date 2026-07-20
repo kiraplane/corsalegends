@@ -40,6 +40,7 @@ const wikiNavGroups: WikiNavGroup[] = [
       { href: '/', label: 'Home' },
       { href: '/guides/beginner-guide', label: 'Beginner Guide' },
       { href: '/codes', label: 'Active Codes' },
+      { href: '/discord', label: 'Discord' },
       { href: '/official-links', label: 'Official Links' },
     ],
   },
