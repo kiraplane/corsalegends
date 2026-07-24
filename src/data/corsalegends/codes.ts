@@ -1,31 +1,19 @@
 import { officialGameFacts } from './sources';
 
-export const CODE_CHECKED_AT = '2026-07-21';
+export const CODE_CHECKED_AT = '2026-07-24';
 
 export const activeCodes = [
+  {
+    code: 'LARP',
+    reward: 'Reward shown by the in-game redemption popup',
+    status: 'Cross-checked active',
+    note: 'New LARP update code reported by the current July 23 code tracker and a same-day code video.',
+  },
   {
     code: '90K',
     reward: 'Cash reward; exact amount is confirmed by the in-game popup',
     status: 'Official-description active',
     note: 'New milestone code published in the official Roblox experience description during the July 17 check.',
-  },
-  {
-    code: 'UNDERGLOW',
-    reward: '25,000 Cash',
-    status: 'Cross-checked active',
-    note: 'Latest code reported by two current July 2026 code sources.',
-  },
-  {
-    code: '4THOFJULY',
-    reward: '25,000 Cash',
-    status: 'Cross-checked active',
-    note: 'Listed active by both current sources at the latest check.',
-  },
-  {
-    code: '60K',
-    reward: '25,000 Cash',
-    status: 'Cross-checked active',
-    note: 'Listed active by both current sources at the latest check.',
   },
 ];
 
@@ -37,6 +25,9 @@ export const watchCodes: Array<{
 }> = [];
 
 export const knownExpiredCodes = [
+  'UNDERGLOW',
+  '4THOFJULY',
+  '60K',
   '75K',
   'GOLF',
   'DIESELTRUCK',
@@ -60,19 +51,19 @@ export const codeCheckSummary = {
   checkedAt: CODE_CHECKED_AT,
   activeCount: activeCodes.length,
   status:
-    'Four Corsa Legends codes are tracked as active for July 2026. 90K is the newest official-description milestone code; UNDERGLOW, 4THOFJULY, and 60K remain cross-checked by current code trackers.',
+    'LARP is the newest July 23 update code. 90K remains listed in the official Roblox description, while the current tracker has moved UNDERGLOW, 4THOFJULY, and 60K to expired.',
   sourcesChecked: [
     {
       label: 'Official Roblox experience',
       url: officialGameFacts.officialRobloxUrl,
     },
     {
-      label: 'Pro Game Guides — updated July 12, 2026',
-      url: 'https://progameguides.com/roblox/corsa-legends-codes/',
+      label: 'Game.Guide — updated July 23, 2026',
+      url: 'https://www.game.guide/roblox-codes/corsa-legends',
     },
     {
-      label: 'Twinfinite — updated July 13, 2026',
-      url: 'https://twinfinite.net/codes/corsa-legends-codes/',
+      label: 'Current LARP code video',
+      url: 'https://www.youtube.com/watch?v=12QLMhQVyYA',
     },
   ],
 };
