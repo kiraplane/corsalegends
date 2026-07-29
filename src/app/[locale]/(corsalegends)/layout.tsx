@@ -1,3 +1,7 @@
+import {
+  AdsterraNativeBanner,
+  AdsterraTopBanner,
+} from '@/components/ads/adsterra-ad';
 import { CorsaLegendsPageShell } from '@/components/corsalegends/wiki-navigation';
 import { Footer } from '@/components/layout/footer';
 import { Navbar } from '@/components/layout/navbar';
@@ -11,9 +15,11 @@ export default function CorsaLegendsLayout({
   return (
     <div className="flex min-h-screen flex-col bg-[#08090B]">
       <Navbar scroll={true} />
+      <AdsterraTopBanner />
       <main className="flex-1">
         <CorsaLegendsPageShell>{children}</CorsaLegendsPageShell>
       </main>
+      <AdsterraNativeBanner className="border-[#3A3220] border-t bg-[#08090B]" />
       <Footer />
     </div>
   );

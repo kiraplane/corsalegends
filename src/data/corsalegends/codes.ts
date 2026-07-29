@@ -1,8 +1,14 @@
 import { officialGameFacts } from './sources';
 
-export const CODE_CHECKED_AT = '2026-07-24';
+export const CODE_CHECKED_AT = '2026-07-29';
 
 export const activeCodes = [
+  {
+    code: '100K',
+    reward: 'Cash reward; exact amount is confirmed by the in-game popup',
+    status: 'Current tracker active',
+    note: 'Newest milestone code found in current July 26-27 code trackers.',
+  },
   {
     code: 'LARP',
     reward: 'Reward shown by the in-game redemption popup',
@@ -51,7 +57,7 @@ export const codeCheckSummary = {
   checkedAt: CODE_CHECKED_AT,
   activeCount: activeCodes.length,
   status:
-    'LARP is the newest July 23 update code. 90K remains listed in the official Roblox description, while the current tracker has moved UNDERGLOW, 4THOFJULY, and 60K to expired.',
+    '100K is the newest July milestone code. LARP and 90K remain in the current tracked group, while older entries stay archived unless current sources agree.',
   sourcesChecked: [
     {
       label: 'Official Roblox experience',
@@ -64,6 +70,10 @@ export const codeCheckSummary = {
     {
       label: 'Current LARP code video',
       url: 'https://www.youtube.com/watch?v=12QLMhQVyYA',
+    },
+    {
+      label: 'Pocket-Codes July 2026 check',
+      url: 'https://pocket-codes.com/corsa-legends-codes.html',
     },
   ],
 };
