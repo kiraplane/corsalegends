@@ -36,7 +36,7 @@ export default function CodesPage() {
     {
       question: 'What are the active Corsa Legends codes?',
       answer:
-        'UNDERGLOW, 4THOFJULY and 60K were cross-checked as active on July 14, 2026. Codes can rotate quickly during ALPHA updates.',
+        '100K is the current official-description code. LARP and 90K remain source-checked while the live reward popup stays final.',
     },
     {
       question: 'How do I redeem Corsa Legends codes?',
@@ -44,9 +44,9 @@ export default function CodesPage() {
         'Open the official Roblox experience, press the Settings or cogwheel button, enter the exact code in the Enter Code box, and press OK.',
     },
     {
-      question: 'Is 75K still active?',
+      question: 'When is the next Corsa Legends code?',
       answer:
-        'The current first-party Roblox description still advertises 75K, but two newer July trackers agree on a different active three. Treat 75K as a rotation check, not a guaranteed active code.',
+        'The current first-party Roblox description promises another code at 110,000 likes but does not publish the future string.',
     },
   ];
   const jsonLd = {
@@ -242,9 +242,9 @@ export default function CodesPage() {
               </ul>
               <p className="mt-4 text-[#BDBAB4] leading-8">
                 Community code trackers are useful freshness signals, not
-                official patch notes. This page separates their current
-                consensus from the older 75K message still visible in the
-                first-party description.
+                official patch notes. This page leads with 100K from the
+                first-party description and keeps older source-checked entries
+                separate.
               </p>
             </section>
           </div>

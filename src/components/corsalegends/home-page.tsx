@@ -28,7 +28,7 @@ import Image from 'next/image';
 const primaryLinks = [
   {
     title: 'Active Codes',
-    body: 'Use the July 2026 cross-checked list, redeem steps and first-party 75K rotation note.',
+    body: 'Use the August 2026 list, redeem 100K first, and keep older source-checked strings separate.',
     href: '/codes',
     icon: BadgeDollarSign,
   },
@@ -79,7 +79,7 @@ const startSteps = [
   {
     title: 'Claim current codes',
     href: '/codes',
-    body: 'Use Settings, enter the exact case, and keep the 75K conflict separate.',
+    body: 'Use Settings, enter the exact case, and redeem the official 100K entry first.',
   },
   {
     title: 'Learn four map anchors',
@@ -100,14 +100,14 @@ const startSteps = [
 
 const latestUpdateItems = [
   {
-    title: 'UNDERGLOW is the latest cross-checked code',
+    title: '100K is the current official code',
     href: '/codes',
-    body: 'The current active set was checked against two July sources on 2026-07-14.',
+    body: 'The Roblox description publishes 100K and says the next milestone code arrives at 110,000 likes.',
   },
   {
-    title: 'Underglow + hood removal update signal',
+    title: 'New car + two remodels update signal',
     href: '/updates',
-    body: 'The latest first-party Roblox title keeps the experience in active ALPHA development.',
+    body: 'The August 3 first-party title keeps the experience in active ALPHA development without naming the remodeled cars.',
   },
   {
     title: 'No permanent best-car ranking',

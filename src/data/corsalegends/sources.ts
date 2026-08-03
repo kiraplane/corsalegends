@@ -1,7 +1,7 @@
 import type { DataSource } from './types';
 
-export const CHECKED_AT = '2026-08-01';
-export const OFFICIAL_CHECKED_AT = '2026-08-01';
+export const CHECKED_AT = '2026-08-03';
+export const OFFICIAL_CHECKED_AT = '2026-08-03';
 
 export const officialGameFacts = {
   name: 'Corsa Legends',
@@ -15,12 +15,13 @@ export const officialGameFacts = {
   creatorId: '6670214',
   genre: 'Simulation / Vehicle Sim',
   status: 'Live Roblox ALPHA',
+  currentTitle: '[🚗CAR + 2 REMODELS] Corsa Legends [ALPHA]',
   createdAt: '2024-11-11T18:56:49.46Z',
-  updatedAt: '2026-07-12T20:21:01.981796Z',
+  updatedAt: '2026-08-02T20:08:59.4090863Z',
   maxPlayers: 28,
-  activePlayersAtCheck: 2963,
-  visitsAtCheck: 18520855,
-  favoritesAtCheck: 389001,
+  activePlayersAtCheck: 3389,
+  visitsAtCheck: 23845014,
+  favoritesAtCheck: 504020,
   officialRobloxUrl:
     'https://www.roblox.com/games/122720857080780/Corsa-Legends',
   officialGroupUrl: 'https://www.roblox.com/communities/6670214/Cogito',

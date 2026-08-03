@@ -239,7 +239,7 @@ export const topicPages = {
     seoDescription:
       'Track the current Corsa Legends Roblox update signal, ALPHA status, code rotation, official media and what to recheck after patches.',
     summary:
-      'Corsa Legends is live and actively updated. Current first-party data highlights underglow and hood removal, while code and race changes rotate quickly.',
+      'Corsa Legends is live and actively updated. Current first-party data highlights a new car and two remodels, while code and race changes rotate quickly.',
     image: '/corsalegends/media/official-3.png',
     updatedAt: CHECKED_AT,
     featuredRoutes: ['/codes', '/cars', '/tuning'],
@@ -247,7 +247,7 @@ export const topicPages = {
       {
         heading: 'Current first-party update signal',
         paragraphs: [
-          'At the latest check, the Roblox games API title includes UNDERGLOW + HOOD REMOVAL and still labels the experience ALPHA. The same API reports a July 12, 2026 update timestamp. Those facts support a fresh status page without pretending that the title is a full changelog.',
+          `At the latest check, the Roblox games API title is ${officialGameFacts.currentTitle}. The same API reports an August 2, 2026 update timestamp. Those facts support a fresh status page without inventing the names or specifications of the remodeled cars.`,
           'Official thumbnails show customization, workshop and open-world car scenes, while the description continues to emphasize 80+ cars and trims, engine swaps, suspension, tires, dynamic weather, damage and live races. Exact balance numbers, new-car names and patch-by-patch fixes are not published in a verified first-party changelog.',
         ],
       },
@@ -270,7 +270,7 @@ export const topicPages = {
       {
         question: 'What is the current Corsa Legends update?',
         answer:
-          'The latest first-party title checked on July 14, 2026 highlights underglow and hood removal while the experience remains in ALPHA.',
+          'The latest first-party title checked on August 3, 2026 highlights a new car and two remodels while the experience remains in ALPHA.',
       },
       {
         question: 'Why did my tune change after an update?',
