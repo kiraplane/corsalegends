@@ -239,7 +239,7 @@ export const topicPages = {
     seoDescription:
       'Track the current Corsa Legends Roblox update signal, ALPHA status, code rotation, official media and what to recheck after patches.',
     summary:
-      'Corsa Legends is live and actively updated. Current first-party data highlights a new car and two remodels, while code and race changes rotate quickly.',
+      'Corsa Legends is live and actively updated. Current first-party data highlights the 350Z and EVO while code and race changes rotate quickly.',
     image: '/corsalegends/media/official-3.png',
     updatedAt: CHECKED_AT,
     featuredRoutes: ['/codes', '/cars', '/tuning'],
@@ -247,8 +247,8 @@ export const topicPages = {
       {
         heading: 'Current first-party update signal',
         paragraphs: [
-          `At the latest check, the Roblox games API title is ${officialGameFacts.currentTitle}. The same API reports an August 2, 2026 update timestamp. Those facts support a fresh status page without inventing the names or specifications of the remodeled cars.`,
-          'Official thumbnails show customization, workshop and open-world car scenes, while the description continues to emphasize 80+ cars and trims, engine swaps, suspension, tires, dynamic weather, damage and live races. Exact balance numbers, new-car names and patch-by-patch fixes are not published in a verified first-party changelog.',
+          `At the latest check, the Roblox games API title is ${officialGameFacts.currentTitle}. The same API reports an August 9, 2026 update timestamp. The title directly names the 350Z and EVO, while exact trims, prices, performance values, and remodel details remain live-client checks.`,
+          'The description continues to emphasize 80+ cars and trims, engine swaps, suspension, tires, dynamic weather, damage and live races. The current official milestone code is 110K, with the next code promised at 120,000 likes.',
         ],
       },
       {
@@ -270,7 +270,7 @@ export const topicPages = {
       {
         question: 'What is the current Corsa Legends update?',
         answer:
-          'The latest first-party title checked on August 3, 2026 highlights a new car and two remodels while the experience remains in ALPHA.',
+          'The latest first-party title checked on August 10, 2026 highlights the 350Z and EVO while the experience remains in ALPHA.',
       },
       {
         question: 'Why did my tune change after an update?',

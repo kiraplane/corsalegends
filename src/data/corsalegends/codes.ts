@@ -1,13 +1,13 @@
 import { officialGameFacts } from './sources';
 
-export const CODE_CHECKED_AT = '2026-08-04';
+export const CODE_CHECKED_AT = '2026-08-10';
 
 export const activeCodes = [
   {
-    code: '100K',
+    code: '110K',
     reward: 'Cash reward; exact amount is confirmed by the in-game popup',
     status: 'Current tracker active',
-    note: 'Current milestone code published in the official Roblox description during the August 3 check.',
+    note: 'Current milestone code published in the official Roblox description during the August 10 check.',
   },
   {
     code: 'LARP',
@@ -31,6 +31,7 @@ export const watchCodes: Array<{
 }> = [];
 
 export const knownExpiredCodes = [
+  '100K',
   'UNDERGLOW',
   '4THOFJULY',
   '60K',
@@ -57,7 +58,7 @@ export const codeCheckSummary = {
   checkedAt: CODE_CHECKED_AT,
   activeCount: activeCodes.length,
   status:
-    '100K is the current official-description milestone code and the next code is promised at 110,000 likes. LARP and 90K remain source-checked until a current source marks them expired.',
+    '110K is the current official-description milestone code and the next code is promised at 120,000 likes. LARP and 90K remain source-checked until a current source marks them expired.',
   sourcesChecked: [
     {
       label: 'Official Roblox experience',

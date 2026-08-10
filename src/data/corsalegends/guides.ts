@@ -179,7 +179,7 @@ export const guides: Guide[] = [
       {
         heading: 'Collect the non-repeatable Cash first',
         paragraphs: [
-          'Redeem current codes before running jobs or races. At the August 3 check, the first-party description publishes 100K and promises another code at 110,000 likes; LARP and 90K remain source-checked until a current source marks them expired. Enter codes only through the in-game Settings interface. A code page, Discord bot or guide site never needs your Roblox password, account cookie or recovery details.',
+          'Redeem current codes before running jobs or races. At the August 10 check, the first-party description publishes 110K and promises another code at 120,000 likes; LARP and 90K remain source-checked until a current source marks them expired. Enter codes only through the in-game Settings interface. A code page, Discord bot or guide site never needs your Roblox password, account cookie or recovery details.',
           'Next, join the verified Cogito group if you want the bonus Cash while driving described on the official page. Treat the bonus as a multiplier on activity you already complete, not a reason to idle or use automation. Rejoin the game after joining the group if the benefit is not visible. Once temporary rewards are claimed, stop counting them as hourly income; they are startup capital for a repeatable method.',
         ],
       },

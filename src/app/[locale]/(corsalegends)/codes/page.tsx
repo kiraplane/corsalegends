@@ -36,7 +36,7 @@ export default function CodesPage() {
     {
       question: 'What are the active Corsa Legends codes?',
       answer:
-        '100K is the current official-description code. LARP and 90K remain source-checked while the live reward popup stays final.',
+        '110K is the current official-description code. LARP and 90K remain source-checked while the live reward popup stays final.',
     },
     {
       question: 'How do I redeem Corsa Legends codes?',
@@ -46,7 +46,7 @@ export default function CodesPage() {
     {
       question: 'When is the next Corsa Legends code?',
       answer:
-        'The current first-party Roblox description promises another code at 110,000 likes but does not publish the future string.',
+        'The current first-party Roblox description promises another code at 120,000 likes but does not publish the future string.',
     },
   ];
   const jsonLd = {

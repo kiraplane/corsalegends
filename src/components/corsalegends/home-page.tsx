@@ -100,9 +100,9 @@ const startSteps = [
 
 const latestUpdateItems = [
   {
-    title: '100K is the current official code',
+    title: '110K is the current official code',
     href: '/codes',
-    body: 'The Roblox description publishes 100K and says the next milestone code arrives at 110,000 likes.',
+    body: 'The Roblox description publishes 110K and says the next milestone code arrives at 120,000 likes.',
   },
   {
     title: 'New car + two remodels update signal',
