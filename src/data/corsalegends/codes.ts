@@ -1,25 +1,19 @@
 import { officialGameFacts } from './sources';
 
-export const CODE_CHECKED_AT = '2026-08-17';
+export const CODE_CHECKED_AT = '2026-08-20';
 
 export const activeCodes = [
   {
+    code: 'RS3',
+    reward: '25,000 Cash',
+    status: 'Source-checked active',
+    note: 'Three August 15 trackers agree on the exact RS3 string and 25,000 Cash reward.',
+  },
+  {
     code: '110K',
     reward: 'Cash reward; exact amount is confirmed by the in-game popup',
-    status: 'Current tracker active',
-    note: 'Current milestone code published in the official Roblox description during the August 10 check.',
-  },
-  {
-    code: 'LARP',
-    reward: 'Reward shown by the in-game redemption popup',
-    status: 'Cross-checked active',
-    note: 'New LARP update code reported by the current July 23 code tracker and a same-day code video.',
-  },
-  {
-    code: '90K',
-    reward: 'Cash reward; exact amount is confirmed by the in-game popup',
     status: 'Official-description active',
-    note: 'New milestone code published in the official Roblox experience description during the July 17 check.',
+    note: 'Current milestone code still published in the official Roblox description during the August 20 check.',
   },
 ];
 
@@ -31,6 +25,8 @@ export const watchCodes: Array<{
 }> = [];
 
 export const knownExpiredCodes = [
+  'LARP',
+  '90K',
   '100K',
   'UNDERGLOW',
   '4THOFJULY',
@@ -58,23 +54,23 @@ export const codeCheckSummary = {
   checkedAt: CODE_CHECKED_AT,
   activeCount: activeCodes.length,
   status:
-    '110K is the current official-description milestone code and the next code is promised at 120,000 likes. LARP and 90K remain source-checked until a current source marks them expired.',
+    'RS3 is source-checked across three August 15 trackers. 110K remains printed in the official Roblox description, while LARP and 90K have moved to the expired history.',
   sourcesChecked: [
     {
       label: 'Official Roblox experience',
       url: officialGameFacts.officialRobloxUrl,
     },
     {
-      label: 'Game.Guide — updated July 23, 2026',
-      url: 'https://www.game.guide/roblox-codes/corsa-legends',
+      label: 'AllThings.How — updated August 15, 2026',
+      url: 'https://allthings.how/corsa-legends-codes/',
     },
     {
-      label: 'Current LARP code video',
-      url: 'https://www.youtube.com/watch?v=12QLMhQVyYA',
+      label: 'NerdsChalk — updated August 15, 2026',
+      url: 'https://nerdschalk.com/corsa-legends-codes/',
     },
     {
-      label: 'Pocket-Codes July 2026 check',
-      url: 'https://pocket-codes.com/corsa-legends-codes.html',
+      label: 'MrGuider — updated August 15, 2026',
+      url: 'https://www.mrguider.org/roblox/corsa-legends-codes/',
     },
   ],
 };
